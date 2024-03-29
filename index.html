@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validation - Midterm</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style/Midterm.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="script/Midterm.js"></script>
+
+    </head>
+    <body>
+        <form id="form">
+            <fieldset>
+                <div><label>Username:</label>  
+                    <input class="element" type="text" id="username"> <span id="username_feedback"></span>
+                </div>
+
+
+
+                <div><label>E-mail:</label>  
+                    <input class="element" type="text" id="email"> <span id="email_feedback"></span>
+                </div>
+
+
+
+                <div><label>Position:</label>
+                    <select class="element" id="position">
+                        <option value="none">Not selected</option>
+                        <option value="engineer">Engineer</option>
+                        <option value="doctor">Doctor</option>
+                        <option value="mechanic">Mechanic</option>
+                    </select><span id="position_feedback"></span>
+                </div>
+
+
+                
+                <div><label>Type:</label>
+                    <div class="flexbox-radio">
+                        <div class="radio-buttons">
+                            <input type="radio" name="type" value="Full" id="Full_time"></input> Full-time
+                        </div>
+                        <div class="radio-buttons">
+                            <input type="radio" name="type" value="Part" id="Part_time"></input> Part-time
+                            <span id="type_feedback"></span>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                <div>
+                    <input class="submit" type="submit" value="Submit"> 
+                </div>
+
+
+
+            </fieldset>
+        </form>
+    </body>
+</html>
+
