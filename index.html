@@ -1,61 +1,109 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Form Validation - Midterm</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style/Midterm.css">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="script/Midterm.js"></script>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style/Project.css">
+</head>
+<body>
+    <div class="container">
+        <img class="profile-image" src="images/Image.png" alt="Steven Pham">
+        <div class="section bio">
+            <h2>Biography</h2>
+            <p>Hi. My name is Steven Pham. I am currently pursuing a bachelor's degree in computer science at the University of Missouri-Kansas City. I thrive on exploring different programming languages and enjoy collaborating with others to work on innovative projects that challenge and inspire me to do more.
 
-    </head>
-    <body>
-        <form id="form">
-            <fieldset>
-                <div><label>Username:</label>  
-                    <input class="element" type="text" id="username"> <span id="username_feedback"></span>
-                </div>
+              I have gained experience in C++, Python, and HTML/CSS from the projects and courses that I've done in UMKC, and I am still working to expand my proficiency and understanding in these languages, as well as exploring new options to expand my skillsets and knowledge,
+              
+              My personal interest includes gaming, travel, sports, and technology.</p>
+        </div>
+        <div class="section resume">
+            <h2>Resume</h2>
+            <a href="Steven_Pham_Resume.pdf">CLICK HERE FOR RESUME</a>
+        </div>
+        <div class="section education">
+            <h2>Education Background</h2>
+            <p>I began taking college-level classes in 2019 as a Junior in high school at St. Pius X. I took courses that offered college credit in Comp Fundamental Apps and Calculus I, which gave me the opportunity to take subjects I had an interest in.
 
+                Upon high school graduation, I decided to transfer to the University of Missouri-Kansas City, where I am currently pursuing a bachelor's degree in computer science.
+            </p>
+            <h2>Undergaduate Courses (St Pius X):</h2>
+              <li>Comp Fundamental Apps (COMP-SCI 100)</li>
+              <li>Calculus I (MATH 210)</li>
+            <h2>Undergaduate Courses (UMKC):</h2>
+              <li>Eng I:Intro Acad Prose (ENGLISH 110)</li>
+              <li>Eng II:Inter Acad Prose (ENGLISH 225)</li>
+              <li>Interpersonal Communication (COMM-ST 277)</li>
+              <li>Culture and Diversity (GECDV 201)</li>
+              <li>MakingMeaning-ChangingWorld (Introduction to Jewish Studies) (GECRT-AH 101)</li>
+              <li>Why Though? (Media Literacy) (GECRT-SS 101)</li>
+              <li>First Semester Experience (GEFSE 101)</li>
+              <li>U.S. History Since 1877 (HISTORY 102)</li>
+              <li>General Chemistry I (CHEM 211)</li>
+              <li>Exper General Chem I (CHEM 211L)</li>
+              <li>Physics For Scientists and Eng (PHYSICS 240)</li>
+              <li>Problem Solving & Programming I (COMP-SCI 101)</li>
+              <li>Problem Solving & Programming Lab I (COMP-SCI 101L)</li>
+              <li>Discrete Structures I (COMP-SCI 191)</li>
+              <li>Discrete Structures II (COMP-SCI 291)</li>
+              <li>Problem Solving & Programming II (COMP-SCI 201R)</li>
+              <li>Problem Solving & Programming Lab II (COMP-SCI 201L)</li>
+              <li>Calculus II (MATH 220)</li>
+              <li>Linear Algebra I (Math 300)</li>
+              <li>Elementary Statistics (STAT 235)</li>
+              <li>Applied Engineering Analysis I (E&C-ENGR 241)</li>
+              <li>Intro Computer Architecture & Org (COMP-SCI 281R)</li>
+              <li>Data Structures (COMP-SCI 303)</li>
+              <li>Ethics & Professionalism (COMP-SCI 304)</li>
+              <li>Data Communications and Networking (COMP-SCI-320)</li>
+              <li>Applied Probability (COMP-SCI 394R)</li>
+              <li>Intro to Algorithms & Complex (COMP-SCI 404)</li>
+              <li>Introduction to Artificial Intelligence (COMP-SCI 461)</li>
+              <li>Special Topics: Web Development (COMP-SCI 490WD)</li>
+              <li>Special Topics: Data Science for Cybersecurity (COMP-SCI 490)</li>
 
+              
+              
+              
+              
+              
+            
+        </div>
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>Programming languages
+                <ul><li>Python</li></ul>
+                <ul><li>C++</li></ul>
+                <ul><li>JavaScript</li></ul>
+                <ul><li>Html</li></ul>
+                <ul><li>Css</li></ul>
+              </li>
+              <li>Soft Skills
+                <ul><li>Adaptability</li></ul>
+                <ul><li>Communication and Collaboration</li></ul>
+                <ul><li>Problem Solving and Critical Thinking</li></ul>
+                <ul><li>Work Ethics</li></ul>
 
-                <div><label>E-mail:</label>  
-                    <input class="element" type="text" id="email"> <span id="email_feedback"></span>
-                </div>
-
-
-
-                <div><label>Position:</label>
-                    <select class="element" id="position">
-                        <option value="none">Not selected</option>
-                        <option value="engineer">Engineer</option>
-                        <option value="doctor">Doctor</option>
-                        <option value="mechanic">Mechanic</option>
-                    </select><span id="position_feedback"></span>
-                </div>
-
-
-                
-                <div><label>Type:</label>
-                    <div class="flexbox-radio">
-                        <div class="radio-buttons">
-                            <input type="radio" name="type" value="Full" id="Full_time"></input> Full-time
-                        </div>
-                        <div class="radio-buttons">
-                            <input type="radio" name="type" value="Part" id="Part_time"></input> Part-time
-                            <span id="type_feedback"></span>
-                        </div>
-                    </div>
-                </div>
-                
-
-
-                <div>
-                    <input class="submit" type="submit" value="Submit"> 
-                </div>
-
-
-
-            </fieldset>
-        </form>
-    </body>
+              </li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+        <div class="section projects">
+            <h2>Projects</h2>
+            <p>*Work in progress*</p>
+        </div>
+        <div class="section research">
+            <h2>Research</h2>
+            <p>*Work in progress*</p>
+        </div>
+        <div class="section work-experience">
+            <h2>Work Experience</h2>
+            <p>*Work in progress*</p>
+        </div>
+        <div class="section contact">
+            <h2>Contact Information</h2>
+            <p>Email address: 49stepham@gmail.com</p>
+            <p>Phone Number: 816-944-6264</p>
+        </div>
+    </div>
+</body>
 </html>
-
